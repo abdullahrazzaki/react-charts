@@ -1,0 +1,20 @@
+.donut-slice:hover {
+  stroke-width: 12px;
+  stroke-linejoin: round;
+  stroke-opacity: 0.8;
+}
+.donut-chart .inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.donut-chart {
+  position: relative;
+  text-align: center;
+}
+.donut-tooltip {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  color: #fff;
+}
